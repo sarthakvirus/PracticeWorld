@@ -28,4 +28,13 @@ function Fruits(){
   )
 }
 
+function Testing(){
+  return(
+    <div>
+      <h1>This is the testing code of git i am uploading </h1>;
+      <p>i am the header component</p>;
+    </div>
+  )
+}
+
 export default App;
