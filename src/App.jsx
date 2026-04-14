@@ -1,3 +1,4 @@
+import Counter from "./Counter";
 import Header from "./Header";
 
 function App(){
@@ -33,6 +34,7 @@ function Testing(){
     <div>
       <h1>This is the testing code of git i am uploading </h1>;
       <p>i am the header component</p>;
+      <Counter />
     </div>
   )
 }
