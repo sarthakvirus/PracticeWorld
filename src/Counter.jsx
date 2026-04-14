@@ -8,13 +8,23 @@ function Counter(){
     }
 
     function decrement(){
-        setCount(count-1);
+        setCount(count-2);
+    }
+    
+    function incrementbyTwo(){
+        setCount(count+2);
+    }
+
+    function decrementbyTwo(){
+        setCount(count-2);
     }
 
     return(
 <div>
 <button onClick={increment}>Increment</button>
 <button onClick={decrement}>Decrement</button>
+<button onClick={incrementbyTwo}>Increment by 2</button>
+<button onClick={decrementbyTwo}>Decrement by 2</button>
 </div>
     );
 }
