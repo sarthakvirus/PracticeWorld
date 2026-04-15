@@ -26,6 +26,10 @@ function Counter() {
 
       <button onClick={incrementbyTwo}>Increment by 2</button>
       <button onClick={decrementbyTwo}>Decrement by 2</button>
+
+
+
+      <h1>Count: {count}</h1>
     </div>
   );
 }
